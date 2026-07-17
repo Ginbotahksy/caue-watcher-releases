@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: caue-postgres
+    environment:
+      POSTGRES_DB: caue_watcher
+      POSTGRES_USER: caue
+      POSTGRES_PASSWORD: caue_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - caue_data:/var/lib/postgresql/data 
+    restart: always
+
+volumes:
+  caue_data:
