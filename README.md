@@ -13,6 +13,7 @@ Elle permet également de rejeter les fichiers non conformes dans un dossier sé
 Assurez-vous que l'ordinateur sur lequel vous voulez installer l'application dispose de :
 1.  **Git**
 2.  **Java** (JDK version 21 ou supérieure)
+3.  **Docker Desktop**
 
 > **Vérifier votre version de Java**
 > Pour vérifier que Java est bien installé et connaître sa version, ouvrez une invite de commandes et tapez :
